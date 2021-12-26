@@ -1,0 +1,3 @@
+#! /usr/bin/env bash
+
+/usr/sbin/clang "$(pwd)/$1" -o "$(pwd)/temp" -Wall && "./temp" && rm "temp"

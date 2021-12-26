@@ -1,0 +1,3 @@
+#! /usr/bin/env bash
+
+/usr/sbin/gcc "$(pwd)/$1" -o "$(pwd)/temp" && "./temp" && rm "temp"
